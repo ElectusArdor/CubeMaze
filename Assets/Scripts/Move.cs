@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    [SerializeField] private Transform container;
+    [SerializeField] private Transform container;   //  Empty object on the scene which used to determinate direction of movement
     [SerializeField] private float speed;
 
     private Rigidbody rb;
